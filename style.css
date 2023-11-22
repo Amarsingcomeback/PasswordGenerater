@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "JejuHallasan";
+  src: url("JejuHallasan.ttf.woff") format("woff"),
+    url("JejuHallasan.ttf.svg#JejuHallasan") format("svg"),
+    url("JejuHallasan.ttf.eot"),
+    url("JejuHallasan.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+h1 {
+  font-family: "JejuHallasan";
+}
+.img {
+  width: 25%;
+  position: absolute;
+  top: 25px;
+  right: 120px;
+  filter: drop-shadow(5px 5px 10px rgb(151, 0, 0));
+}
+p {
+  font-size: 1.2rem;
+}
+/* .inputDiv :input {
+  width: 100%;
+} */
